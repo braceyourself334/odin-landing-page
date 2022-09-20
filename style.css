@@ -1,0 +1,46 @@
+* {
+    border: 1px red solid !important
+  }
+
+/* Full page */
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* Content */
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+/* Footer */
+
+/* Other */
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
